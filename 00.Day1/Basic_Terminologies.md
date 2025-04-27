@@ -44,7 +44,68 @@ This document covers the basic terminologies every beginner should know before l
   name = "Alice"
   name.upper()
   ```
+---
 
+# 🛠️ Most Common Python Methods (For Daily Use)
+
+---
+
+## 📄 String Methods (for Text)
+
+| Method | Use | Example |
+|:------:|:---:|:-------:|
+| `.lower()` | Convert text to lowercase | `"HELLO".lower()` → `"hello"` |
+| `.upper()` | Convert text to uppercase | `"hello".upper()` → `"HELLO"` |
+| `.strip()` | Remove spaces from start and end | `"  hello  ".strip()` → `"hello"` |
+| `.replace(old, new)` | Replace part of a string | `"Hello World".replace("World", "Python")` → `"Hello Python"` |
+| `.split(separator)` | Split a string into a list | `"a,b,c".split(",")` → `["a", "b", "c"]` |
+| `.find(word)` | Find the position of a word | `"hello".find("e")` → `1` |
+
+---
+
+## 📦 List Methods (for Collections)
+
+| Method | Use | Example |
+|:------:|:---:|:-------:|
+| `.append(item)` | Add item at the end | `fruits.append("mango")` |
+| `.remove(item)` | Remove item from list | `fruits.remove("apple")` |
+| `.pop()` | Remove last item | `fruits.pop()` |
+| `.sort()` | Sort the list | `fruits.sort()` |
+| `.reverse()` | Reverse the list | `fruits.reverse()` |
+
+---
+
+## 🧹 Dictionary Methods (for Key-Value Pairs)
+
+| Method | Use | Example |
+|:------:|:---:|:-------:|
+| `.keys()` | Get all keys | `person.keys()` |
+| `.values()` | Get all values | `person.values()` |
+| `.items()` | Get key-value pairs | `person.items()` |
+| `.get(key)` | Get value safely | `person.get("name")` |
+
+---
+
+## 🔢 Numeric Methods
+
+| Method | Use | Example |
+|:------:|:---:|:-------:|
+| `round(number)` | Round a number | `round(3.14159, 2)` → `3.14` |
+| `abs(number)` | Get absolute value | `abs(-5)` → `5` |
+
+---
+
+## 🎯 Utility Functions (Built-in)
+
+| Function | Use | Example |
+|:--------:|:---:|:-------:|
+| `len()` | Get the number of items | `len(fruits)` |
+| `type()` | Find the type of data | `type(5)` → `<class 'int'>` |
+| `input()` | Take input from user | `input("Enter name: ")` |
+| `print()` | Show output | `print("Hello")` |
+| `range()` | Create a range of numbers | `range(5)` → `[0,1,2,3,4]` |
+
+---
 ---
 
 ## 5. Argument
