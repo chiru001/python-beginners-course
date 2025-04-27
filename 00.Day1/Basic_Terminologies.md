@@ -11,7 +11,7 @@ This document covers the basic terminologies every beginner should know before l
 - **Example:**
   ```python
   x = 10
-  name = "Alice"
+  name = "Nani"
   ```
 
 ---
@@ -41,7 +41,7 @@ This document covers the basic terminologies every beginner should know before l
 - **Definition:** A function that belongs to an object.
 - **Example:**
   ```python
-  name = "Alice"
+  name = "nani"
   name.upper()
   ```
 ---
@@ -112,7 +112,7 @@ This document covers the basic terminologies every beginner should know before l
 - **Definition:** A value you pass into a function or method.
 - **Example:**
   ```python
-  greet("Bob")
+  greet("nani")
   ```
 
 ---
@@ -149,7 +149,7 @@ This document covers the basic terminologies every beginner should know before l
 - **Definition:** A collection of key-value pairs.
 - **Example:**
   ```python
-  person = {"name": "Alice", "age": 25}
+  person = {"name": "nani", "age": 25}
   ```
 
 ---
