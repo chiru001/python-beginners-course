@@ -1,138 +1,211 @@
-# 📚 Python Basic Terminologies (with Super Simple Examples)
+---
+
+# 📚 Python Beginner Terminologies
+
+This document covers the basic terminologies every beginner should know before learning Python.
 
 ---
 
-### 1. **Variable**  
-- **Meaning:** A name that stores a value.  
-- **Example:**  
+## 1. Variable
+- **Definition:** A name that stores a value.
+- **Example:**
   ```python
-  x = 5
+  x = 10
   name = "Alice"
   ```
-- **How to identify:** If you see a name **=** something, that's a variable.
 
 ---
 
-### 2. **Function**  
-- **Meaning:** A reusable block of code that does something.  
-- **Example:**  
+## 2. Data Types
+- **Definition:** Types of data you can use.
+- **Examples:**  
+  - `int` (Integer): `5`
+  - `float` (Decimal): `3.14`
+  - `str` (String/Text): `"Hello"`
+  - `bool` (Boolean): `True` or `False`
+  - `list` (Collection): `[1, 2, 3]`
+
+---
+
+## 3. Function
+- **Definition:** A reusable block of code that performs a task.
+- **Example:**
   ```python
   def greet():
       print("Hello")
   ```
-- **How to identify:**  
-  - It starts with `def` keyword.
-  - It has parentheses `()` after the name.
 
 ---
 
-### 3. **Method**  
-- **Meaning:** A function that belongs to an object.  
-- **Example:**  
+## 4. Method
+- **Definition:** A function that belongs to an object.
+- **Example:**
   ```python
   name = "Alice"
-  name.upper()  # 'upper' is a method
+  name.upper()
   ```
-- **How to identify:**  
-  - It's written like `something.method()`.
-  - The method acts **on** an object (like a string or list).
 
 ---
 
-### 4. **Argument**  
-- **Meaning:** The value you **pass into** a function or method.  
-- **Example:**  
+## 5. Argument
+- **Definition:** A value you pass into a function or method.
+- **Example:**
   ```python
-  def greet(name):
-      print("Hello", name)
-
-  greet("Bob")  # "Bob" is the argument
+  greet("Bob")
   ```
-- **How to identify:**  
-  - Inside the parentheses `()`, the actual values given are arguments.
 
 ---
 
-### 5. **Parameter**  
-- **Meaning:** The name used **inside** the function to accept a value.  
-- **Example:**  
+## 6. Parameter
+- **Definition:** A variable name used to accept an argument in a function.
+- **Example:**
   ```python
   def greet(name):
       print("Hello", name)
   ```
-- **How to identify:**  
-  - Inside the function `def greet(name):`, the `name` is the parameter.
 
 ---
-   
-### 6. **String**  
-- **Meaning:** Text data, written inside quotes.  
-- **Example:**  
+
+## 7. String
+- **Definition:** Text, written inside quotes.
+- **Example:**
   ```python
   message = "Hello World"
   ```
-- **How to identify:**  
-  - Anything inside `' '` or `" "` is a string.
 
 ---
 
-### 7. **List**  
-- **Meaning:** A collection of items, ordered and changeable.  
-- **Example:**  
+## 8. List
+- **Definition:** A collection of items, ordered and changeable.
+- **Example:**
   ```python
   fruits = ["apple", "banana", "cherry"]
   ```
-- **How to identify:**  
-  - It uses square brackets `[]`.
 
 ---
 
-### 8. **Loop**  
-- **Meaning:** Repeat actions multiple times.  
-- **Example:**  
+## 9. Dictionary
+- **Definition:** A collection of key-value pairs.
+- **Example:**
+  ```python
+  person = {"name": "Alice", "age": 25}
+  ```
+
+---
+
+## 10. Loop
+- **Definition:** Repeats actions multiple times.
+- **Example (for loop):**
   ```python
   for fruit in fruits:
       print(fruit)
   ```
-- **How to identify:**  
-  - Look for `for` or `while` keywords.
 
 ---
 
-### 9. **Condition**  
-- **Meaning:** Decision making (if something is true, do this).  
-- **Example:**  
+## 11. Condition
+- **Definition:** Makes decisions in code.
+- **Example:**
   ```python
   if x > 0:
       print("Positive number")
   ```
-- **How to identify:**  
-  - Look for `if`, `else`, or `elif`.
 
 ---
 
-### 10. **Indentation**  
-- **Meaning:** Spaces at the beginning of a line to show code blocks.  
-- **Example:**  
+## 12. Indentation
+- **Definition:** Spaces at the beginning of a line to define code blocks.
+- **Example:**
   ```python
   if True:
-      print("This is indented")
+      print("Indented block")
   ```
-- **How to identify:**  
-  - After `:` (colon), next line moves **right** with spaces.
 
 ---
 
-### 11. **Comment**  
-- **Meaning:** Notes in code, ignored by Python.  
-- **Example:**  
+## 13. Comment
+- **Definition:** Notes for humans, ignored by Python.
+- **Example:**
   ```python
   # This is a comment
   print("Hello")
   ```
-- **How to identify:**  
-  - Starts with `#`.
 
 ---
 
+## 14. Module
+- **Definition:** A file containing Python code that you can use in your programs.
+- **Example:**
+  ```python
+  import math
+  print(math.sqrt(16))
+  ```
+
+---
+
+## 15. Syntax
+- **Definition:** The rules you must follow to write valid Python code.
+- **Example:**  
+  - Correct: `print("Hello")`
+  - Incorrect: `print("Hello'`
+
+---
+
+## 16. Error (Exception)
+- **Definition:** Problems that happen when you run your program.
+- **Example:**
+  ```python
+  print(5 / 0)  # ZeroDivisionError
+  ```
+
+---
+
+## 17. Boolean
+- **Definition:** True or False values.
+- **Example:**
+  ```python
+  is_active = True
+  ```
+
+---
+
+## 18. Input
+- **Definition:** Taking data from the user.
+- **Example:**
+  ```python
+  name = input("Enter your name: ")
+  ```
+
+---
+
+## 19. Output
+- **Definition:** Displaying information to the user.
+- **Example:**
+  ```python
+  print("Welcome!")
+  ```
+
+---
+
+## 20. Class (OOP)
+- **Definition:** A blueprint for creating objects.
+- **Example:**
+  ```python
+  class Person:
+      def __init__(self, name):
+          self.name = name
+  ```
+
+---
+
+# 🎯 Tip
+> Practice by writing small programs for each concept!
+
+---
+
+# 📢 Learn More
+Follow the full Python Beginner series on YouTube:  
+**[DCR Tech Channel](https://www.youtube.com/@DCR-Tech)**
+
+---
 
